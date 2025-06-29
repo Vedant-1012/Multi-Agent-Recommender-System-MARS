@@ -1,0 +1,11 @@
+google-adk
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+pandas
+numpy
+sentence-transformers
+# Use faiss-cpu for CPU or faiss-gpu for GPU
+faiss-cpu
+lightfm

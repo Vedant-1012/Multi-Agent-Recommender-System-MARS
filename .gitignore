@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+mars_env/
+env/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# IDE and OS-specific files
+.DS_Store
+.idea/
+.vscode/
+
+# --- Project-Specific Large Files & Directories ---
+
+# Ignore all large data files
+data/
+
+# Ignore all model artifacts
+artifacts/
+
+# Ignore generated vector store files
+tools/movie_index.faiss
+tools/movie_mapping.pkl
+
+# Ignore obsolete vectorizer
+vectorizer_ngram.pkl
+
+# Ignore generated plots
+generated_plots.csv
+
+# Ignore sensitive environment variables
+.env
+
+# Log files
+*.log
